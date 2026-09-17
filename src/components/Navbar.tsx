@@ -7,11 +7,36 @@ import { buildWhatsAppLink, GENERAL_INQUIRY_MESSAGE } from "@/lib/whatsapp";
 import { useCart } from "@/context/CartContext";
 
 const links = [
-  { href: "/shop", label: "Shop" },
   { href: "/customize", label: "Customize" },
   { href: "/about", label: "Our Story" },
   { href: "/contact", label: "Contact" },
 ];
+
+function ShopLink({ onClick, className = "" }: { onClick?: () => void; className?: string }) {
+  return (
+    <Link
+      href="/shop"
+      onClick={onClick}
+      className={`flex items-center gap-1.5 text-sm font-bold text-terracotta transition hover:text-terracotta-dark ${className}`}
+    >
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path
+          d="M6 8h12l-1 12H7L6 8Z"
+          stroke="currentColor"
+          strokeWidth="1.8"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M9 8V6a3 3 0 0 1 6 0v2"
+          stroke="currentColor"
+          strokeWidth="1.8"
+          strokeLinecap="round"
+        />
+      </svg>
+      Shop
+    </Link>
+  );
+}
 
 function CartLink() {
   const { totalItems } = useCart();
@@ -61,6 +86,7 @@ export default function Navbar() {
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex">
+          <ShopLink />
           {links.map((l) => (
             <Link
               key={l.href}
@@ -104,6 +130,7 @@ export default function Navbar() {
       {open && (
         <div className="border-t border-border-soft/70 bg-surface px-5 py-4 md:hidden">
           <nav className="flex flex-col gap-4">
+            <ShopLink onClick={() => setOpen(false)} className="text-base" />
             {links.map((l) => (
               <Link
                 key={l.href}

@@ -2,7 +2,20 @@ import Link from "next/link";
 import Image from "next/image";
 import { categories } from "@/data/categories";
 import CategoryCard from "@/components/CategoryCard";
+import ProductCard from "@/components/ProductCard";
+import { getProduct } from "@/data/products";
 import { buildWhatsAppLink, GENERAL_INQUIRY_MESSAGE } from "@/lib/whatsapp";
+
+const bestSellerSlugs = [
+  "name-jhumka-earrings",
+  "kodi-bengali-text-choker",
+  "durga-trishul-necklace",
+  "tulip-pendant-necklace",
+  "kashmiri-oxidised-tulip-watch",
+  "marcasite-roman-dial-watch",
+  "hand-painted-diya-set",
+  "patachitra-fish-mandala-plate",
+];
 
 const testimonials = [
   {
@@ -19,15 +32,6 @@ const testimonials = [
     quote: "I bought two earrings... those are really pretty.",
     name: "Sneha M.",
   },
-];
-
-const galleryStrip = [
-  { src: "/images/products/name-jhumka-trio.jpg", label: "Name jhumkas" },
-  { src: "/images/products/portrait-silhouette-red.jpg", label: "Portrait silhouettes" },
-  { src: "/images/products/pom-pom-floral-drop.jpg", label: "Floral drops" },
-  { src: "/images/products/diya-set-circle.jpg", label: "Hand-painted diyas" },
-  { src: "/images/products/shell-necklace-set.jpg", label: "Shell necklace set" },
-  { src: "/images/products/name-jhumka-yellow-bird.jpg", label: "Bird-charm jhumkas" },
 ];
 
 export default function Home() {
@@ -133,33 +137,29 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Real craft gallery strip */}
+      {/* Best sellers, real shoppable products */}
       <section className="bg-surface py-14">
         <div className="mx-auto max-w-6xl px-5">
-          <p className="text-sm font-semibold uppercase tracking-widest text-terracotta">
-            From our workbench
-          </p>
-          <h2 className="mt-2 font-display text-2xl text-foreground">
-            Every piece, hand-painted in Kolkata
-          </h2>
-          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-            {galleryStrip.map((g) => (
-              <div
-                key={g.src}
-                className="group relative aspect-square overflow-hidden rounded-2xl shadow-md"
-              >
-                <Image
-                  src={g.src}
-                  alt={g.label}
-                  fill
-                  sizes="(min-width: 1024px) 16vw, (min-width: 640px) 33vw, 50vw"
-                  className="object-cover transition duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/60 via-black/0 to-black/0 p-2 opacity-0 transition group-hover:opacity-100">
-                  <span className="text-xs font-medium text-white">{g.label}</span>
-                </div>
-              </div>
-            ))}
+          <div className="flex items-end justify-between">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-widest text-terracotta">
+                Best sellers
+              </p>
+              <h2 className="mt-1 font-display text-2xl text-foreground">
+                Shop our most loved pieces
+              </h2>
+            </div>
+            <Link href="/shop" className="text-sm font-semibold text-terracotta hover:underline">
+              View all →
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {bestSellerSlugs
+              .map((slug) => getProduct(slug))
+              .filter((p) => p !== undefined)
+              .map((product) => (
+                <ProductCard key={product.slug} product={product} />
+              ))}
           </div>
         </div>
       </section>

@@ -1,19 +1,27 @@
 import Link from "next/link";
 import { Category } from "@/data/categories";
+import { getProductsByCategory } from "@/data/products";
 import ProductMedia from "./ProductMedia";
 
 export default function CategoryCard({ category }: { category: Category }) {
+  const count = getProductsByCategory(category.slug).length;
+
   return (
     <Link
       href={`/shop/${category.slug}`}
       className="group overflow-hidden rounded-2xl border border-border-soft bg-surface transition hover:-translate-y-1 hover:shadow-xl"
     >
-      <ProductMedia
-        image={category.image}
-        swatch={category.swatch}
-        alt={category.name}
-        className="h-48 w-full transition duration-500 group-hover:scale-105"
-      />
+      <div className="relative">
+        <ProductMedia
+          image={category.image}
+          swatch={category.swatch}
+          alt={category.name}
+          className="h-48 w-full transition duration-500 group-hover:scale-105"
+        />
+        <span className="absolute right-3 top-3 rounded-full bg-background/90 px-2.5 py-1 text-xs font-semibold text-foreground shadow-sm">
+          {count} {count === 1 ? "item" : "items"}
+        </span>
+      </div>
       <div className="p-5">
         <p className="text-xs font-semibold uppercase tracking-wide text-terracotta">
           {category.tagline}
@@ -24,9 +32,9 @@ export default function CategoryCard({ category }: { category: Category }) {
         {category.nameBn && (
           <p className="shimmer-text font-bn text-sm">{category.nameBn}</p>
         )}
-        <p className="mt-2 text-sm text-ink-soft">{category.description}</p>
-        <span className="mt-3 inline-block text-sm font-semibold text-terracotta group-hover:underline">
-          Explore →
+        <span className="mt-4 flex items-center justify-center gap-1.5 rounded-full bg-terracotta px-4 py-2.5 text-sm font-semibold text-white transition group-hover:bg-terracotta-dark">
+          Shop Now
+          <span aria-hidden="true">→</span>
         </span>
       </div>
     </Link>
