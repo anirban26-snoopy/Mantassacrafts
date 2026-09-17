@@ -1,0 +1,147 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --background: #fbf4e8;
+  --surface: #fffaf1;
+  --foreground: #2a2118;
+  --ink-soft: #5c4d3f;
+  --terracotta: #c1502e;
+  --terracotta-dark: #9c3f22;
+  --mustard: #e0a62f;
+  --indigo: #2f3b63;
+  --border-soft: #e8dcc7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-ink-soft: var(--ink-soft);
+  --color-terracotta: var(--terracotta);
+  --color-terracotta-dark: var(--terracotta-dark);
+  --color-mustard: var(--mustard);
+  --color-indigo: var(--indigo);
+  --color-border-soft: var(--border-soft);
+  --font-display: var(--font-display-serif);
+  --font-sans: var(--font-body-sans);
+  --font-bengali: var(--font-noto-bengali);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+.font-bn {
+  font-family: var(--font-bengali), var(--font-sans), sans-serif;
+}
+
+.prose h2 {
+  font-family: var(--font-display);
+  color: var(--foreground);
+}
+
+.prose a {
+  color: var(--terracotta);
+}
+
+.brand-mark {
+  color: var(--terracotta-dark);
+  font-weight: 700;
+}
+
+.bg-grain {
+  background-image: radial-gradient(var(--border-soft) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+.shimmer-text,
+.shimmer-gold {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-size: 100% 100%;
+}
+
+/* Default: for gold/amber text on light (cream or white) backgrounds. */
+.shimmer-text {
+  color: var(--terracotta-dark);
+  background-image: linear-gradient(
+    100deg,
+    var(--terracotta-dark) 0%,
+    var(--terracotta) 25%,
+    #a8690f 50%,
+    var(--terracotta) 75%,
+    var(--terracotta-dark) 100%
+  );
+}
+
+/* For button labels sitting on a solid terracotta (or other dark) fill,
+   where the darker gradient above would have too little contrast. */
+.shimmer-gold {
+  color: #fff1c4;
+  background-image: linear-gradient(
+    100deg,
+    #d9a441 0%,
+    #f3cf7a 25%,
+    #fff1c4 50%,
+    #f3cf7a 75%,
+    #d9a441 100%
+  );
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .shimmer-text,
+  .shimmer-gold {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+/* A light beam sweeps over the solid gold text. This animates only
+   transform/opacity (compositor-only) so it never triggers the Chromium
+   repaint bug that animating background-clip:text directly can cause. */
+.shimmer-text::after,
+.shimmer-gold::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -60%;
+  width: 40%;
+  background: linear-gradient(
+    100deg,
+    transparent 0%,
+    rgba(255, 235, 180, 0.55) 50%,
+    transparent 100%
+  );
+  mix-blend-mode: soft-light;
+  animation: shimmer-sweep-beam 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes shimmer-sweep-beam {
+  0% {
+    transform: translateX(-40%);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  55% {
+    transform: translateX(340%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(340%);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shimmer-text::after {
+    display: none;
+  }
+}
