@@ -45,6 +45,11 @@ export default function Footer() {
                 Home &amp; Gifting
               </Link>
             </li>
+            <li>
+              <Link href="/shop/oxidised-jewellery" className="hover:text-terracotta">
+                Oxidised Junk Jewellery
+              </Link>
+            </li>
           </ul>
         </div>
 

@@ -2,7 +2,8 @@ export type CategorySlug =
   | "personalized-earrings"
   | "fine-jewelry"
   | "watches-accessories"
-  | "home-gifting";
+  | "home-gifting"
+  | "oxidised-jewellery";
 
 export interface Category {
   slug: CategorySlug;
@@ -54,6 +55,16 @@ export const categories: Category[] = [
       "Hand painted Patachitra plates, terracotta diyas, and personalized keepsakes for weddings, birthdays, and festive gifting.",
     swatch: "#7a8b5c",
     image: "/images/products/decor/patachitra-radha-krishna-winter.jpg",
+  },
+  {
+    slug: "oxidised-jewellery",
+    name: "Oxidised Junk Jewellery",
+    nameBn: "অক্সিডাইজড জাঙ্ক জুয়েলারি",
+    tagline: "Ready to ship, everyday and festive",
+    description:
+      "Studs, danglers, jhumkas, and ear cuffs in antique oxidised silver tone, ready-made and ready to ship straight from our stock.",
+    swatch: "#5c5850",
+    image: "/images/products/jhumka-oxidised/oxidised-pearl-jhumka-1.jpg",
   },
 ];
 
