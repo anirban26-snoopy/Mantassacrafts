@@ -64,13 +64,13 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href="/shop"
-                className="rounded-none bg-terracotta px-8 py-4 text-sm font-semibold uppercase tracking-wide shadow-lg shadow-terracotta/20 transition hover:-translate-y-0.5 hover:bg-terracotta-dark"
+                className="rounded-none bg-terracotta px-8 py-4 text-base font-bold uppercase tracking-wide shadow-lg shadow-terracotta/20 transition hover:-translate-y-0.5 hover:bg-terracotta-dark"
               >
                 <span className="shimmer-gold">Shop the Collection</span>
               </Link>
               <Link
                 href="/customize"
-                className="rounded-none border border-foreground px-8 py-4 text-sm font-semibold uppercase tracking-wide text-foreground transition hover:-translate-y-0.5 hover:bg-foreground hover:text-background"
+                className="rounded-none border border-foreground px-8 py-4 text-base font-bold uppercase tracking-wide text-foreground transition hover:-translate-y-0.5 hover:bg-foreground hover:text-background"
               >
                 Customize Your Own
               </Link>
@@ -83,12 +83,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative">
-            <div
-              className="absolute -right-5 -top-5 bottom-5 left-5 border border-terracotta-dark/60 md:-right-6 md:-top-6 md:bottom-6 md:left-6"
-              aria-hidden="true"
-            />
-            <div className="relative h-[420px] w-full overflow-hidden shadow-xl md:h-[480px]">
+          <div className="border border-terracotta-dark/60 p-3 shadow-xl md:p-4">
+            <div className="relative h-[400px] w-full overflow-hidden md:h-[460px]">
               <Image
                 src="/images/products/name-jhumka-handheld-garden.jpg"
                 alt="Hand-painted name jhumka earrings from Mantassa Crafts"
@@ -270,12 +266,8 @@ export default function Home() {
               <span aria-hidden="true">→</span>
             </a>
           </div>
-          <div className="relative">
-            <div
-              className="absolute -right-5 -top-5 bottom-5 left-5 border border-terracotta-dark/60 md:-right-6 md:-top-6 md:bottom-6 md:left-6"
-              aria-hidden="true"
-            />
-            <div className="relative h-72 w-full overflow-hidden shadow-xl">
+          <div className="border border-terracotta-dark/60 p-3 shadow-xl">
+            <div className="relative h-64 w-full overflow-hidden">
               <Image
                 src="/images/products/name-jhumka-handheld-garden.jpg"
                 alt="Mantassa Crafts community"

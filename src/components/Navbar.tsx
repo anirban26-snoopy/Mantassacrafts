@@ -106,7 +106,7 @@ export default function Navbar() {
             href={buildWhatsAppLink(GENERAL_INQUIRY_MESSAGE)}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden rounded-full bg-terracotta px-5 py-2.5 text-[13px] font-semibold uppercase tracking-wide transition hover:bg-terracotta-dark md:inline-block"
+            className="hidden rounded-full bg-terracotta px-5 py-2.5 text-sm font-bold uppercase tracking-wide transition hover:bg-terracotta-dark md:inline-block"
           >
             <span className="shimmer-gold">WhatsApp Us</span>
           </a>
@@ -148,7 +148,7 @@ export default function Navbar() {
               href={buildWhatsAppLink(GENERAL_INQUIRY_MESSAGE)}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-1 rounded-full bg-terracotta px-4 py-2 text-center text-sm font-semibold"
+              className="mt-1 rounded-full bg-terracotta px-4 py-2 text-center text-sm font-bold"
             >
               <span className="shimmer-gold">WhatsApp Us</span>
             </a>
