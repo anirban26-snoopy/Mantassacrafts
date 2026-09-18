@@ -3,7 +3,8 @@ export type CategorySlug =
   | "fine-jewelry"
   | "watches-accessories"
   | "home-gifting"
-  | "oxidised-jewellery";
+  | "oxidised-jewellery"
+  | "bangaliana";
 
 export interface Category {
   slug: CategorySlug;
@@ -66,6 +67,16 @@ export const categories: Category[] = [
       "Studs, danglers, jhumkas, and ear cuffs in antique oxidised silver tone, ready-made and ready to ship straight from our stock.",
     swatch: "#5c5850",
     image: "/images/products/jhumka-oxidised/oxidised-pearl-jhumka-1.jpg",
+  },
+  {
+    slug: "bangaliana",
+    name: "Bangaliana",
+    nameBn: "বাঙালিয়ানা",
+    tagline: "A tribute to Bengal's soul",
+    description:
+      "Hand-painted bamboo trays, wall art, and statement pieces celebrating Bengal's rituals, folklore, and festivals. Rare, one-of-a-kind heirloom pieces for the home.",
+    swatch: "#a3492e",
+    image: "/images/products/bangaliana/bor-kone-ashirbad-tray.jpg",
   },
 ];
 
