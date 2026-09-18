@@ -7,3 +7,6 @@ export function buildWhatsAppLink(message: string): string {
 
 export const GENERAL_INQUIRY_MESSAGE =
   "Hi Mantassa Crafts! I'd like to know more about your jewelry.";
+
+export const WHATSAPP_COMMUNITY_LINK =
+  "https://chat.whatsapp.com/KQy0SZXHrPv83H2YYNLCLI";

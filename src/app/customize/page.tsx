@@ -40,7 +40,7 @@ export default function CustomizePage() {
       <p className="text-sm font-semibold uppercase tracking-widest text-terracotta">
         Customize
       </p>
-      <h1 className="mt-2 font-display text-3xl text-foreground">
+      <h1 className="mt-2 font-display text-5xl font-semibold text-foreground">
         How personalizing works
       </h1>
       <p className="mt-3 max-w-xl text-ink-soft">

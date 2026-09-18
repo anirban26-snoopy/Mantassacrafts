@@ -28,7 +28,7 @@ export const products: Product[] = [
     name: "Name Jhumka Earrings",
     nameBn: "নিজের নামে ঝুমকা",
     category: "personalized-earrings",
-    price: 349,
+    price: 195,
     description:
       "Our best loved piece. A hand painted fabric disc bearing your name in Bengali or English script, edged with pom poms and finished with a silver jhumka bell.",
     swatch: "#c1502e",
@@ -56,7 +56,7 @@ export const products: Product[] = [
     name: "Moyurpakhi Name Jhumka",
     nameBn: "ময়ূরপঙ্খী ঝুমকা",
     category: "personalized-earrings",
-    price: 379,
+    price: 185,
     description:
       "A peacock feather hand painted alongside your name, on a mustard yellow disc with a deep blue pom pom border. A tribute to the moyurpakhi, the peacock feather boat of Bengal folklore.",
     swatch: "#2f3b63",
@@ -77,7 +77,7 @@ export const products: Product[] = [
     name: "Utsav Name Earrings",
     nameBn: "উৎসব ঝুমকা",
     category: "personalized-earrings",
-    price: 329,
+    price: 175,
     description:
       "Diamond shaped white fabric earrings hand lettered with your name or a festive word like Utsav, trimmed in rani pink pom poms and finished with a jhumka bell.",
     swatch: "#b5382a",
@@ -119,7 +119,7 @@ export const products: Product[] = [
     name: "Pom Pom Drop Earrings",
     nameBn: "পম পম দুল",
     category: "personalized-earrings",
-    price: 249,
+    price: 160,
     description:
       "Layered fabric flower drops in terracotta and mustard tones, finished with a delicate silver bell. A lighter everyday piece from the same handmade line.",
     swatch: "#e0a62f",
@@ -140,7 +140,7 @@ export const products: Product[] = [
     name: "Portrait Silhouette Earrings",
     nameBn: "প্রতিকৃতি দুল",
     category: "personalized-earrings",
-    price: 399,
+    price: 200,
     description:
       "Hand painted silhouette art on a fabric base, framed in a rich colour block and finished with a jhumka drop. A conversation piece, made to order.",
     swatch: "#2f3b63",

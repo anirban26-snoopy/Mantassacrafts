@@ -13,7 +13,7 @@ export default function ShopPage() {
       <p className="text-sm font-semibold uppercase tracking-widest text-terracotta">
         Shop
       </p>
-      <h1 className="mt-2 font-display text-3xl text-foreground">
+      <h1 className="mt-2 font-display text-5xl font-semibold text-foreground">
         Every category, made personal
       </h1>
       <p className="mt-2 max-w-xl text-ink-soft">

@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
-import { Spectral, Inter, Noto_Sans_Bengali } from "next/font/google";
+import { Cormorant_Garamond, Karla, Noto_Sans_Bengali } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloatButton from "@/components/WhatsAppFloatButton";
 import { CartProvider } from "@/context/CartContext";
 
-const displayFont = Spectral({
+const displayFont = Cormorant_Garamond({
   variable: "--font-display-serif",
   subsets: ["latin"],
   weight: ["500", "600", "700"],
 });
 
-const bodyFont = Inter({
+const bodyFont = Karla({
   variable: "--font-body-sans",
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const notoBengali = Noto_Sans_Bengali({

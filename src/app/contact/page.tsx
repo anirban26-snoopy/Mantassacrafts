@@ -12,7 +12,7 @@ export default function ContactPage() {
       <p className="text-sm font-semibold uppercase tracking-widest text-terracotta">
         Contact
       </p>
-      <h1 className="mt-2 font-display text-3xl text-foreground">
+      <h1 className="mt-2 font-display text-5xl font-semibold text-foreground">
         Let&apos;s talk about your order
       </h1>
       <p className="mt-3 max-w-xl text-ink-soft">

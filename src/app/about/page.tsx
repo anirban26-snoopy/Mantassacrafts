@@ -9,12 +9,13 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-4xl px-5 py-14">
-      <p className="text-sm font-semibold uppercase tracking-widest text-terracotta">
-        Our Story
-      </p>
-      <h1 className="mt-2 font-display text-3xl text-foreground">
+      <span className="kicker">Our Story</span>
+      <h1 className="mt-4 font-display text-5xl font-semibold text-foreground">
         A small Kolkata craft studio, made new
       </h1>
+      <p className="font-bn mt-2 text-lg font-medium text-terracotta-dark">
+        নারীর সৌন্দর্যে, নারীর সৃষ্টির ছোঁয়া
+      </p>
 
       <div className="mt-8 grid grid-cols-3 gap-4">
         <div className="relative col-span-2 h-72 overflow-hidden rounded-2xl shadow-lg">

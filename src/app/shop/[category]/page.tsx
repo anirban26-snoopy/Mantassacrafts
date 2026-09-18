@@ -47,7 +47,7 @@ export default async function CategoryPage({
           <p className="text-sm font-semibold uppercase tracking-widest text-terracotta">
             {category.tagline}
           </p>
-          <h1 className="mt-2 font-display text-3xl text-foreground">
+          <h1 className="mt-2 font-display text-5xl font-semibold text-foreground">
             {category.name}
           </h1>
           {category.nameBn && (

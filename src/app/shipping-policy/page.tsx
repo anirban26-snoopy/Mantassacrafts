@@ -12,7 +12,7 @@ export default function ShippingPolicyPage() {
       <p className="text-sm font-semibold uppercase tracking-widest text-terracotta">
         Policies
       </p>
-      <h1 className="mt-2 font-display text-3xl text-foreground">
+      <h1 className="mt-2 font-display text-5xl font-semibold text-foreground">
         Shipping Policy
       </h1>
       <p className="mt-2 text-sm text-ink-soft">Last updated 2026.</p>

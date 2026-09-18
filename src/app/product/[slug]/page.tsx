@@ -50,7 +50,7 @@ export default async function ProductPage({
         <ProductGallery images={product.images} swatch={product.swatch} name={product.name} />
 
         <div>
-          <h1 className="font-display text-3xl text-foreground">
+          <h1 className="font-display text-5xl font-semibold text-foreground">
             {product.name}
           </h1>
           {product.nameBn && (

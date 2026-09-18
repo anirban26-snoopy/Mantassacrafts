@@ -4,7 +4,11 @@ import { categories } from "@/data/categories";
 import CategoryCard from "@/components/CategoryCard";
 import ProductCard from "@/components/ProductCard";
 import { getProduct } from "@/data/products";
-import { buildWhatsAppLink, GENERAL_INQUIRY_MESSAGE } from "@/lib/whatsapp";
+import {
+  buildWhatsAppLink,
+  GENERAL_INQUIRY_MESSAGE,
+  WHATSAPP_COMMUNITY_LINK,
+} from "@/lib/whatsapp";
 
 const bestSellerSlugs = [
   "name-jhumka-earrings",
@@ -38,48 +42,40 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       {/* Hero */}
-      <section className="relative">
-        <div
-          className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-terracotta/20 blur-3xl"
-          aria-hidden="true"
-        />
-        <div
-          className="pointer-events-none absolute -right-16 top-40 h-64 w-64 rounded-full bg-mustard/25 blur-3xl"
-          aria-hidden="true"
-        />
-
-        <div className="relative mx-auto grid max-w-6xl gap-10 px-5 py-14 md:grid-cols-2 md:items-center md:py-20">
+      <section className="relative border-b border-border-soft/70">
+        <div className="relative mx-auto grid max-w-6xl gap-12 px-5 py-16 md:grid-cols-2 md:items-center md:py-24">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-terracotta">
-              Handmade in Kolkata
-            </p>
-            <h1 className="mt-3 font-display text-4xl leading-tight text-foreground md:text-5xl">
+            <span className="kicker">Handmade in Kolkata</span>
+            <h1 className="mt-6 font-display text-6xl font-semibold leading-[1.05] text-foreground md:text-7xl">
               Jewelry &amp; gifts,
               <br /> made <span className="shimmer-text">personal</span>.
             </h1>
-            <p className="shimmer-text font-bn mt-2 text-lg">
+            <p className="shimmer-text font-bn mt-4 text-2xl font-medium">
               মানতাসা ক্রাফটস
             </p>
-            <p className="mt-4 max-w-md text-ink-soft">
+            <p className="font-bn mt-2 text-base font-medium text-terracotta-dark">
+              নারীর সৌন্দর্যে, নারীর সৃষ্টির ছোঁয়া
+            </p>
+            <p className="mt-5 max-w-md text-base leading-relaxed text-ink-soft">
               From our signature hand-painted name jhumkas to fine jewelry,
               watches, and gifting pieces, every item can be made yours, with
               your name, your colors, your story.
             </p>
-            <div className="mt-6 flex flex-wrap gap-3">
+            <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href="/shop"
-                className="rounded-full bg-terracotta px-6 py-3 text-sm font-semibold shadow-lg shadow-terracotta/20 transition hover:-translate-y-0.5 hover:bg-terracotta-dark"
+                className="rounded-none bg-terracotta px-8 py-4 text-sm font-semibold uppercase tracking-wide shadow-lg shadow-terracotta/20 transition hover:-translate-y-0.5 hover:bg-terracotta-dark"
               >
                 <span className="shimmer-gold">Shop the Collection</span>
               </Link>
               <Link
                 href="/customize"
-                className="rounded-full border border-terracotta px-6 py-3 text-sm font-semibold text-terracotta transition hover:-translate-y-0.5 hover:bg-terracotta/10"
+                className="rounded-none border border-foreground px-8 py-4 text-sm font-semibold uppercase tracking-wide text-foreground transition hover:-translate-y-0.5 hover:bg-foreground hover:text-background"
               >
                 Customize Your Own
               </Link>
             </div>
-            <div className="mt-8 flex items-center gap-4 text-sm text-ink-soft">
+            <div className="mt-10 flex items-center gap-4 text-sm text-ink-soft">
               <span className="flex items-center gap-1 font-semibold text-foreground">
                 ★★★★★ 4.8
               </span>
@@ -87,8 +83,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative grid grid-cols-2 gap-4">
-            <div className="col-span-2 relative h-56 overflow-hidden rounded-3xl shadow-xl md:h-64">
+          <div className="relative">
+            <div
+              className="absolute -right-5 -top-5 bottom-5 left-5 border border-terracotta-dark/60 md:-right-6 md:-top-6 md:bottom-6 md:left-6"
+              aria-hidden="true"
+            />
+            <div className="relative h-[420px] w-full overflow-hidden shadow-xl md:h-[480px]">
               <Image
                 src="/images/products/name-jhumka-handheld-garden.jpg"
                 alt="Hand-painted name jhumka earrings from Mantassa Crafts"
@@ -98,39 +98,54 @@ export default function Home() {
                 priority
               />
             </div>
-            <div className="relative h-36 overflow-hidden rounded-2xl shadow-lg md:h-44">
-              <Image
-                src="/images/products/portrait-silhouette-blue.jpg"
-                alt="Portrait silhouette earrings"
-                fill
-                sizes="25vw"
-                className="object-cover"
-              />
-            </div>
-            <div className="relative h-36 overflow-hidden rounded-2xl shadow-lg md:h-44">
-              <Image
-                src="/images/products/diya-set-triangle.jpg"
-                alt="Hand-painted terracotta diyas"
-                fill
-                sizes="25vw"
-                className="object-cover"
-              />
-            </div>
+          </div>
+        </div>
+
+        <div className="mx-auto grid max-w-6xl grid-cols-3 gap-px bg-border-soft px-5 pb-5 md:px-0 md:pb-0">
+          <div className="relative h-32 overflow-hidden bg-background md:h-40">
+            <Image
+              src="/images/products/jewelry/durga-trishul-necklace.jpg"
+              alt="Durga Trishul Necklace"
+              fill
+              sizes="33vw"
+              className="object-cover"
+            />
+          </div>
+          <div className="relative h-32 overflow-hidden bg-background md:h-40">
+            <Image
+              src="/images/products/watches/rajasthani-elephant-charm-watch.jpg"
+              alt="Rajasthani elephant charm watch"
+              fill
+              sizes="33vw"
+              className="object-cover"
+            />
+          </div>
+          <div className="relative h-32 overflow-hidden bg-background md:h-40">
+            <Image
+              src="/images/products/diya-set-triangle.jpg"
+              alt="Hand-painted terracotta diyas"
+              fill
+              sizes="33vw"
+              className="object-cover"
+            />
           </div>
         </div>
       </section>
 
       {/* Shop by category */}
-      <section className="mx-auto max-w-6xl px-5 py-14">
+      <section className="mx-auto max-w-6xl px-5 py-20">
         <div className="flex items-end justify-between">
-          <h2 className="font-display text-2xl text-foreground">
+          <h2 className="font-display text-4xl font-semibold text-foreground md:text-5xl">
             Shop by Category
           </h2>
-          <Link href="/shop" className="text-sm font-semibold text-terracotta hover:underline">
+          <Link
+            href="/shop"
+            className="text-sm font-semibold uppercase tracking-wide text-terracotta hover:underline"
+          >
             View all →
           </Link>
         </div>
-        <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {categories.map((c) => (
             <CategoryCard key={c.slug} category={c} />
           ))}
@@ -138,22 +153,23 @@ export default function Home() {
       </section>
 
       {/* Best sellers, real shoppable products */}
-      <section className="bg-surface py-14">
+      <section className="bg-surface py-20">
         <div className="mx-auto max-w-6xl px-5">
           <div className="flex items-end justify-between">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest text-terracotta">
-                Best sellers
-              </p>
-              <h2 className="mt-1 font-display text-2xl text-foreground">
+              <span className="kicker">Best sellers</span>
+              <h2 className="mt-3 font-display text-4xl font-semibold text-foreground md:text-5xl">
                 Shop our most loved pieces
               </h2>
             </div>
-            <Link href="/shop" className="text-sm font-semibold text-terracotta hover:underline">
+            <Link
+              href="/shop"
+              className="text-sm font-semibold uppercase tracking-wide text-terracotta hover:underline"
+            >
               View all →
             </Link>
           </div>
-          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {bestSellerSlugs
               .map((slug) => getProduct(slug))
               .filter((p) => p !== undefined)
@@ -165,20 +181,21 @@ export default function Home() {
       </section>
 
       {/* Personalize banner */}
-      <section className="py-14">
-        <div className="mx-auto grid max-w-6xl gap-8 px-5 md:grid-cols-2 md:items-center">
+      <section className="py-20">
+        <div className="mx-auto grid max-w-6xl gap-10 px-5 md:grid-cols-2 md:items-center">
           <div>
-            <h2 className="font-display text-2xl text-foreground">
+            <span className="kicker">Made to order</span>
+            <h2 className="mt-3 font-display text-4xl font-semibold text-foreground md:text-5xl">
               Personalize almost anything we make
             </h2>
-            <p className="mt-3 max-w-md text-ink-soft">
+            <p className="mt-4 max-w-md text-base leading-relaxed text-ink-soft">
               Pick a base color, a motif, and, on our signature pieces, add
               a name in Bengali or English. We confirm every design with you
               on WhatsApp before it&apos;s handmade.
             </p>
             <Link
               href="/customize"
-              className="mt-5 inline-block rounded-full bg-terracotta px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-terracotta-dark"
+              className="mt-6 inline-block rounded-none bg-terracotta px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition hover:-translate-y-0.5 hover:bg-terracotta-dark"
             >
               See how it works
             </Link>
@@ -207,11 +224,11 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="mx-auto max-w-6xl px-5 py-14">
-        <h2 className="font-display text-2xl text-foreground">
+      <section className="mx-auto max-w-6xl px-5 py-20">
+        <h2 className="font-display text-4xl font-semibold text-foreground md:text-5xl">
           Loved by our customers
         </h2>
-        <div className="mt-6 grid gap-5 md:grid-cols-3">
+        <div className="mt-10 grid gap-5 md:grid-cols-3">
           {testimonials.map((t) => (
             <div
               key={t.name}
@@ -226,20 +243,65 @@ export default function Home() {
         </div>
       </section>
 
+      {/* WhatsApp community */}
+      <section className="border-y border-border-soft/70 bg-surface py-20">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 md:grid-cols-2">
+          <div>
+            <span className="kicker">A community for women</span>
+            <h2 className="mt-3 font-display text-4xl font-semibold text-foreground md:text-5xl">
+              Join our WhatsApp Community
+            </h2>
+            <p className="font-bn mt-2 text-base font-medium text-terracotta-dark">
+              নারীর সৌন্দর্যে, নারীর সৃষ্টির ছোঁয়া
+            </p>
+            <p className="mt-4 max-w-md text-base leading-relaxed text-ink-soft">
+              A female-only WhatsApp group for early looks at new pieces,
+              festive offers, and updates from the studio, straight from
+              Mantassa Crafts. This is separate from our order and inquiry
+              line, just for the community.
+            </p>
+            <a
+              href={WHATSAPP_COMMUNITY_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-2 bg-terracotta px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition hover:-translate-y-0.5 hover:bg-terracotta-dark"
+            >
+              Join the Community
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+          <div className="relative">
+            <div
+              className="absolute -right-5 -top-5 bottom-5 left-5 border border-terracotta-dark/60 md:-right-6 md:-top-6 md:bottom-6 md:left-6"
+              aria-hidden="true"
+            />
+            <div className="relative h-72 w-full overflow-hidden shadow-xl">
+              <Image
+                src="/images/products/name-jhumka-handheld-garden.jpg"
+                alt="Mantassa Crafts community"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
-      <section className="mx-auto max-w-6xl px-5 pb-16">
-        <div className="rounded-3xl bg-indigo px-8 py-10 text-center text-white">
-          <h2 className="font-display text-2xl">
+      <section className="mx-auto max-w-6xl px-5 py-20">
+        <div className="bg-indigo px-8 py-14 text-center text-white">
+          <h2 className="font-display text-4xl font-semibold md:text-5xl">
             Have something in mind?
           </h2>
-          <p className="mt-2 text-white/80">
+          <p className="mt-3 text-white/80">
             Tell us on WhatsApp and we&apos;ll help you design it.
           </p>
           <a
             href={buildWhatsAppLink(GENERAL_INQUIRY_MESSAGE)}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 inline-block rounded-full bg-white px-6 py-3 text-sm font-semibold transition hover:bg-white/90"
+            className="mt-6 inline-block rounded-none bg-white px-8 py-4 text-sm font-semibold uppercase tracking-wide transition hover:bg-white/90"
           >
             <span className="shimmer-text">Chat with Mantassa Crafts</span>
           </a>

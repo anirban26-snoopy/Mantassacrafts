@@ -17,7 +17,7 @@ function ShopLink({ onClick, className = "" }: { onClick?: () => void; className
     <Link
       href="/shop"
       onClick={onClick}
-      className={`flex items-center gap-1.5 text-sm font-bold text-terracotta transition hover:text-terracotta-dark ${className}`}
+      className={`flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-widest text-terracotta transition hover:text-terracotta-dark ${className}`}
     >
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path
@@ -72,7 +72,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-border-soft/70 bg-background/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-2">
-        <Link href="/" className="flex shrink-0 items-center">
+        <Link href="/" className="flex shrink-0 flex-col items-start">
           <Image
             src="/images/brand/mantassa-logo.png"
             alt="Mantassa Crafts, মানতাসা ক্রাফটস"
@@ -83,15 +83,18 @@ export default function Navbar() {
             sizes="(min-width: 1024px) 300px, (min-width: 640px) 220px, 160px"
             className="h-20 w-auto sm:h-24 md:h-28 lg:h-32"
           />
+          <span className="font-bn -mt-1 text-[11px] font-medium text-terracotta-dark sm:text-xs">
+            নারীর সৌন্দর্যে, নারীর সৃষ্টির ছোঁয়া
+          </span>
         </Link>
 
-        <nav className="hidden items-center gap-7 md:flex">
+        <nav className="hidden items-center gap-8 md:flex">
           <ShopLink />
           {links.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-foreground/80 transition hover:text-terracotta"
+              className="text-[13px] font-medium uppercase tracking-widest text-foreground/80 transition hover:text-terracotta"
             >
               {l.label}
             </Link>
@@ -103,7 +106,7 @@ export default function Navbar() {
             href={buildWhatsAppLink(GENERAL_INQUIRY_MESSAGE)}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden rounded-full bg-terracotta px-4 py-2 text-sm font-semibold transition hover:bg-terracotta-dark md:inline-block"
+            className="hidden rounded-full bg-terracotta px-5 py-2.5 text-[13px] font-semibold uppercase tracking-wide transition hover:bg-terracotta-dark md:inline-block"
           >
             <span className="shimmer-gold">WhatsApp Us</span>
           </a>

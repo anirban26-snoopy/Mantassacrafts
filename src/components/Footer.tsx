@@ -1,6 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { WHATSAPP_DISPLAY, buildWhatsAppLink, GENERAL_INQUIRY_MESSAGE } from "@/lib/whatsapp";
+import {
+  WHATSAPP_DISPLAY,
+  buildWhatsAppLink,
+  GENERAL_INQUIRY_MESSAGE,
+  WHATSAPP_COMMUNITY_LINK,
+} from "@/lib/whatsapp";
 
 export default function Footer() {
   return (
@@ -16,7 +21,10 @@ export default function Footer() {
             sizes="200px"
             className="h-20 w-auto"
           />
-          <p className="mt-3 text-sm text-ink-soft">
+          <p className="font-bn mt-3 text-sm font-medium text-terracotta-dark">
+            নারীর সৌন্দর্যে, নারীর সৃষ্টির ছোঁয়া
+          </p>
+          <p className="mt-2 text-sm text-ink-soft">
             Handmade jewelry &amp; gifts, personalized for you. Kolkata-made,
             women-owned.
           </p>
@@ -85,6 +93,16 @@ export default function Footer() {
                 className="hover:text-terracotta"
               >
                 WhatsApp: {WHATSAPP_DISPLAY}
+              </a>
+            </li>
+            <li>
+              <a
+                href={WHATSAPP_COMMUNITY_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-terracotta hover:text-terracotta-dark"
+              >
+                Join our WhatsApp Community →
               </a>
             </li>
             <li>Sukanta Nagar, Sector IV, Bidhannagar, Kolkata, West Bengal 700107</li>
