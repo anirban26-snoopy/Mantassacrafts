@@ -45,7 +45,12 @@ export default function Home() {
       <section className="relative border-b border-border-soft/70">
         <div className="relative mx-auto grid max-w-6xl gap-12 px-5 py-16 md:grid-cols-2 md:items-center md:py-24">
           <div>
-            <span className="kicker">Handmade in Kolkata</span>
+            <span className="kicker">
+              Handmade with love in Kolkata
+              <span className="heartbeat" aria-hidden="true">
+                ❤️
+              </span>
+            </span>
             <h1 className="mt-6 font-display text-6xl font-semibold leading-[1.05] text-foreground md:text-7xl">
               Jewelry &amp; gifts,
               <br /> made <span className="shimmer-text">personal</span>.

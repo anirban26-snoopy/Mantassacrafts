@@ -72,7 +72,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-border-soft/70 bg-background/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-2">
-        <Link href="/" className="flex shrink-0 flex-col items-start">
+        <Link href="/" className="flex shrink-0 flex-col items-center">
           <Image
             src="/images/brand/mantassa-logo.png"
             alt="Mantassa Crafts, মানতাসা ক্রাফটস"
@@ -83,7 +83,7 @@ export default function Navbar() {
             sizes="(min-width: 1024px) 300px, (min-width: 640px) 220px, 160px"
             className="h-20 w-auto sm:h-24 md:h-28 lg:h-32"
           />
-          <span className="font-bn -mt-1 text-[11px] font-medium text-terracotta-dark sm:text-xs">
+          <span className="font-bn -mt-1 whitespace-nowrap text-center text-[11px] font-medium text-terracotta-dark sm:text-xs">
             নারীর সৌন্দর্যে, নারীর সৃষ্টির ছোঁয়া
           </span>
         </Link>
