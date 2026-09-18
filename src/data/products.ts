@@ -26,7 +26,7 @@ export const products: Product[] = [
   {
     slug: "name-jhumka-earrings",
     name: "Name Jhumka Earrings",
-    nameBn: "নিজের নামে জুমকা",
+    nameBn: "নিজের নামে ঝুমকা",
     category: "personalized-earrings",
     price: 349,
     description:
@@ -54,7 +54,7 @@ export const products: Product[] = [
   {
     slug: "moyurpakhi-name-jhumka",
     name: "Moyurpakhi Name Jhumka",
-    nameBn: "ময়ূরপঙ্খী জুমকা",
+    nameBn: "ময়ূরপঙ্খী ঝুমকা",
     category: "personalized-earrings",
     price: 379,
     description:
@@ -75,7 +75,7 @@ export const products: Product[] = [
   {
     slug: "utsav-name-earrings",
     name: "Utsav Name Earrings",
-    nameBn: "উৎসব জুমকা",
+    nameBn: "উৎসব ঝুমকা",
     category: "personalized-earrings",
     price: 329,
     description:
@@ -97,7 +97,7 @@ export const products: Product[] = [
     slug: "kodi-bengali-text-choker",
     name: "Kodi Bengali Text Choker",
     nameBn: "কড়ি লেখা চোকার",
-    category: "personalized-earrings",
+    category: "fine-jewelry",
     price: 449,
     description:
       "A maroon fabric choker hand lettered with a Bengali phrase of your choice, trimmed with kodi cowrie shells, paired with matching drop earrings.",
@@ -163,7 +163,7 @@ export const products: Product[] = [
     slug: "shell-pendant-necklace",
     name: "Shell Pendant Necklace",
     nameBn: "শাঁখ লকেট মালা",
-    category: "personalized-earrings",
+    category: "fine-jewelry",
     price: 299,
     description:
       "A hand lettered pendant strung with natural cowrie shells on a black cord, with a matching earring pair. Personalize the pendant with a name or a short phrase.",
@@ -184,7 +184,7 @@ export const products: Product[] = [
     slug: "owl-clay-necklace-set",
     name: "Owl Clay Necklace Set",
     nameBn: "প্যাঁচা মাটির গহনা",
-    category: "personalized-earrings",
+    category: "fine-jewelry",
     price: 549,
     description:
       "A hand painted owl pendant and earring set on black cord, styled after Bengal's beloved Lokkhi pyanchar, the owl who rides beside the goddess of wealth.",
@@ -205,7 +205,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-pearl-jhumka-1",
     name: "Oxidised Pearl Jhumka Earrings",
-    nameBn: "অক্সিডাইজড মুক্তো জুমকা",
+    nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 187,
     description:
@@ -217,7 +217,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-pearl-jhumka-2",
     name: "Oxidised Pearl Jhumka Earrings, Layered",
-    nameBn: "অক্সিডাইজড মুক্তো জুমকা",
+    nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 343,
     description:
@@ -229,7 +229,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-pearl-jhumka-3",
     name: "Oxidised Pearl Jhumka Earrings, Statement",
-    nameBn: "অক্সিডাইজড মুক্তো জুমকা",
+    nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 441,
     description:
@@ -241,7 +241,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-pearl-jhumka-4",
     name: "Oxidised Pearl Jhumka Earrings, Classic",
-    nameBn: "অক্সিডাইজড মুক্তো জুমকা",
+    nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 363,
     description:
@@ -253,7 +253,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-pearl-jhumka-5",
     name: "Oxidised Pearl Jhumka Earrings, Petite",
-    nameBn: "অক্সিডাইজড মুক্তো জুমকা",
+    nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 265,
     description:
@@ -265,7 +265,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-potastone-pearl-jhumka",
     name: "Oxidised Pota Stone and Pearl Jhumka",
-    nameBn: "অক্সিডাইজড পাথর জুমকা",
+    nameBn: "অক্সিডাইজড পাথর ঝুমকা",
     category: "oxidised-jewellery",
     price: 218,
     description:
@@ -279,7 +279,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-pearl-jhumka-white",
     name: "Oxidised Pearl Jhumka Earrings, White Bead",
-    nameBn: "অক্সিডাইজড মুক্তো জুমকা",
+    nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 195,
     description:
@@ -293,7 +293,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-potastone-jhumka",
     name: "Oxidised Pota Stone Jhumka Earrings",
-    nameBn: "অক্সিডাইজড পাথর জুমকা",
+    nameBn: "অক্সিডাইজড পাথর ঝুমকা",
     category: "oxidised-jewellery",
     price: 225,
     description:
@@ -491,7 +491,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-pearl-jhumka-6",
     name: "Oxidised Pearl Jhumka Earrings, Round",
-    nameBn: "অক্সিডাইজড মুক্তো জুমকা",
+    nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 285,
     description:
@@ -503,7 +503,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-pearl-jhumka-7",
     name: "Oxidised Pearl Jhumka Earrings, Layered Bell",
-    nameBn: "অক্সিডাইজড মুক্তো জুমকা",
+    nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 383,
     description:
@@ -515,7 +515,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-pearl-jhumka-8",
     name: "Oxidised Pearl Jhumka Earrings, Wide",
-    nameBn: "অক্সিডাইজড মুক্তো জুমকা",
+    nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 343,
     description:
@@ -527,7 +527,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-potastone-pearl-jhumka-2",
     name: "Oxidised Pota Stone and Pearl Jhumka Earrings, Large",
-    nameBn: "অক্সিডাইজড পাথর জুমকা",
+    nameBn: "অক্সিডাইজড পাথর ঝুমকা",
     category: "oxidised-jewellery",
     price: 330,
     description:
@@ -541,7 +541,7 @@ export const products: Product[] = [
   {
     slug: "oxidised-pearl-jhumka-medium",
     name: "Oxidised Pearl Jhumka Earrings, Medium",
-    nameBn: "অক্সিডাইজড মুক্তো জুমকা",
+    nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 233,
     description:
@@ -703,11 +703,193 @@ export const products: Product[] = [
     personalizable: false,
   },
 
+  // Hand painted fabric jhumkas, budget signature line
+  {
+    slug: "jhumka-tumi-amar",
+    name: "Tumi Amar Bengali Text Jhumka",
+    nameBn: "তুমি আমার ঝুমকা",
+    category: "personalized-earrings",
+    price: 150,
+    description:
+      "A hand painted mismatched pair reading Tumi and Amar, in white script on royal blue, edged with mustard pom poms.",
+    swatch: "#2f3b8f",
+    images: ["/images/products/jhumka-earrings/jhumka-tumi-amar.jpeg"],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-ganesh-motif",
+    name: "Ganesh Motif Jhumka Earrings",
+    nameBn: "গণেশ ঝুমকা",
+    category: "personalized-earrings",
+    price: 140,
+    description:
+      "Hand painted Ganesh motif earrings on a deep red fabric base with a polka dot border, finished with a pom pom and cowrie shell drop.",
+    swatch: "#a8231f",
+    images: ["/images/products/jhumka-earrings/jhumka-ganesh-motif.jpeg"],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-bengali-symbol-duo",
+    name: "Bengali Calligraphy Jhumka, Mismatched Pair",
+    nameBn: "বাংলা লিপি ঝুমকা",
+    category: "personalized-earrings",
+    price: 130,
+    description:
+      "A mismatched pair of hand painted Bengali calligraphy earrings on black fabric, edged in red pom poms with a silver jhumka bell.",
+    swatch: "#1f1a17",
+    images: [
+      "/images/products/jhumka-earrings/jhumka-bengali-symbol-duo.jpeg",
+    ],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-rai-kishori",
+    name: "Rai Kishori Cowrie Jhumka",
+    nameBn: "রাই কিশোরী ঝুমকা",
+    category: "personalized-earrings",
+    price: 170,
+    description:
+      "Hand painted Rai Kishori text on a red disc with a sky blue pom pom border, finished with a trio of cowrie shell drops.",
+    swatch: "#b5382a",
+    images: ["/images/products/jhumka-earrings/jhumka-rai-kishori.jpeg"],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-yellow-floral-cowrie",
+    name: "Yellow Floral Cowrie Jhumka",
+    nameBn: "হলুদ ফুল ঝুমকা",
+    category: "personalized-earrings",
+    price: 160,
+    description:
+      "Hand painted white floral vine on a mustard yellow disc with red pom pom trim, finished with a cowrie shell drop.",
+    swatch: "#e0a62f",
+    images: [
+      "/images/products/jhumka-earrings/jhumka-yellow-floral-cowrie.jpeg",
+    ],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-red-floral-cowrie",
+    name: "Red Floral Cowrie Jhumka",
+    nameBn: "লাল ফুল ঝুমকা",
+    category: "personalized-earrings",
+    price: 160,
+    description:
+      "Hand painted white floral vine on a deep red disc with mustard pom pom trim, finished with a cowrie shell drop.",
+    swatch: "#b5382a",
+    images: [
+      "/images/products/jhumka-earrings/jhumka-red-floral-cowrie.jpeg",
+    ],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-chhau-mask",
+    name: "Chhau Mask Face Jhumka",
+    nameBn: "ছৌ মুখোশ ঝুমকা",
+    category: "personalized-earrings",
+    price: 200,
+    description:
+      "A hand painted Chhau mask inspired face on a scalloped black base, finished with a silver jhumka bell. Inspired by the folk dance masks of Purulia.",
+    swatch: "#1f1a17",
+    images: ["/images/products/jhumka-earrings/jhumka-chhau-mask.jpeg"],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-fish-motif",
+    name: "Rui Fish Motif Jhumka",
+    nameBn: "মাছ ঝুমকা",
+    category: "personalized-earrings",
+    price: 150,
+    description:
+      "A hand embroidered fish motif on black fabric, a nod to the Bengali love for maach, edged in red pom poms with a silver jhumka bell.",
+    swatch: "#1f1a17",
+    images: ["/images/products/jhumka-earrings/jhumka-fish-motif.jpeg"],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-dekha-text",
+    name: "Dekha Bengali Text Jhumka",
+    nameBn: "দেখা ঝুমকা",
+    category: "personalized-earrings",
+    price: 170,
+    description:
+      "Hand painted Dekha lettering with a floral accent on a royal blue disc, edged in red pom poms with a silver jhumka bell.",
+    swatch: "#2f3b8f",
+    images: ["/images/products/jhumka-earrings/jhumka-dekha-text.jpeg"],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-tumi-robe-nirobe",
+    name: "Tumi Robe Nirobe Song Line Jhumka",
+    nameBn: "তুমি রবে নীরবে ঝুমকা",
+    category: "personalized-earrings",
+    price: 180,
+    description:
+      "A hand painted line from the beloved Rabindra Sangeet Tumi Robe Nirobe, on a mustard disc with a bold red pom pom border.",
+    swatch: "#e0a62f",
+    images: [
+      "/images/products/jhumka-earrings/jhumka-tumi-robe-nirobe.jpeg",
+    ],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-colorful-calligraphy",
+    name: "Colourful Bengali Calligraphy Jhumka",
+    nameBn: "রঙিন বাংলা লিপি ঝুমকা",
+    category: "personalized-earrings",
+    price: 140,
+    description:
+      "A mismatched pair of hand painted Bengali calligraphy earrings in red, blue, yellow, and green on a white base with a scalloped pom pom edge.",
+    swatch: "#c1502e",
+    images: [
+      "/images/products/jhumka-earrings/jhumka-colorful-calligraphy.jpeg",
+    ],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-jamini-face-blue",
+    name: "Jamini Style Face Jhumka, Blue",
+    nameBn: "মুখাবয়ব ঝুমকা",
+    category: "personalized-earrings",
+    price: 190,
+    description:
+      "A hand painted portrait in the bold lines of Bengal's Jamini Roy school, on a royal blue disc with a scalloped black edge and jhumka bell.",
+    swatch: "#2f3b8f",
+    images: ["/images/products/jhumka-earrings/jhumka-jamini-face-blue.jpeg"],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-jamini-face-red",
+    name: "Jamini Style Face Jhumka, Floral",
+    nameBn: "মুখাবয়ব ঝুমকা",
+    category: "personalized-earrings",
+    price: 180,
+    description:
+      "A hand painted portrait with a jasmine flower accent, in the bold lines of Bengal's Jamini Roy school, edged in a scalloped red pom pom border.",
+    swatch: "#b5382a",
+    images: ["/images/products/jhumka-earrings/jhumka-jamini-face-red.jpeg"],
+    personalizable: false,
+  },
+  {
+    slug: "jhumka-folk-face-red-black",
+    name: "Folk Face Jhumka, Red and Black",
+    nameBn: "মুখাবয়ব ঝুমকা",
+    category: "personalized-earrings",
+    price: 200,
+    description:
+      "A hand painted folk art portrait with floral hair detailing on a split red and black disc, finished with a silver stud top and jhumka bell.",
+    swatch: "#1f1a17",
+    images: [
+      "/images/products/jhumka-earrings/jhumka-folk-face-red-black.jpeg",
+    ],
+    personalizable: false,
+  },
+
   // Fine Jewelry, the expanding line
   {
     slug: "durga-face-jhumka",
     name: "Durga Face Jhumka",
-    nameBn: "দুর্গা মুখ জুমকা",
+    nameBn: "দুর্গা মুখ ঝুমকা",
     category: "fine-jewelry",
     price: 599,
     description:

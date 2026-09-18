@@ -19,7 +19,7 @@ export const categories: Category[] = [
   {
     slug: "personalized-earrings",
     name: "Personalized Jhumkas & Earrings",
-    nameBn: "নিজের নামে জুমকা",
+    nameBn: "নিজের নামে ঝুমকা",
     tagline: "Our signature handmade craft",
     description:
       "Hand painted fabric and terracotta jhumkas, finished with your name in Bengali or English, pom poms, and silver bells. The line that started it all.",
@@ -30,7 +30,8 @@ export const categories: Category[] = [
     slug: "fine-jewelry",
     name: "Fine Jewelry",
     nameBn: "শৌখিন গহনা",
-    tagline: "Hand painted clay and terracotta jewelry",
+    tagline:
+      "Hand painted clay and terracotta jewelry Necklace, Necklace Set and Choker Set",
     description:
       "Hand sculpted and hand painted clay pendants, chokers, and earrings drawing on Bengal's flowers, folklore, and festival motifs, from Durga to the humble shonkho.",
     swatch: "#e0a62f",
