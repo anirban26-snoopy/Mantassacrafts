@@ -29,6 +29,7 @@ export const products: Product[] = [
     nameBn: "নিজের নামে ঝুমকা",
     category: "personalized-earrings",
     price: 195,
+    originalPrice: 430,
     description:
       "Our best loved piece. A hand painted fabric disc bearing your name in Bengali or English script, edged with pom poms and finished with a silver jhumka bell.",
     swatch: "#c1502e",
@@ -57,6 +58,7 @@ export const products: Product[] = [
     nameBn: "ময়ূরপঙ্খী ঝুমকা",
     category: "personalized-earrings",
     price: 185,
+    originalPrice: 410,
     description:
       "A peacock feather hand painted alongside your name, on a mustard yellow disc with a deep blue pom pom border. A tribute to the moyurpakhi, the peacock feather boat of Bengal folklore.",
     swatch: "#2f3b63",
@@ -78,6 +80,7 @@ export const products: Product[] = [
     nameBn: "উৎসব ঝুমকা",
     category: "personalized-earrings",
     price: 175,
+    originalPrice: 390,
     description:
       "Diamond shaped white fabric earrings hand lettered with your name or a festive word like Utsav, trimmed in rani pink pom poms and finished with a jhumka bell.",
     swatch: "#b5382a",
@@ -99,6 +102,7 @@ export const products: Product[] = [
     nameBn: "কড়ি লেখা চোকার",
     category: "fine-jewelry",
     price: 449,
+    originalPrice: 890,
     description:
       "A maroon fabric choker hand lettered with a Bengali phrase of your choice, trimmed with kodi cowrie shells, paired with matching drop earrings.",
     swatch: "#7a1f2b",
@@ -120,6 +124,7 @@ export const products: Product[] = [
     nameBn: "পম পম দুল",
     category: "personalized-earrings",
     price: 160,
+    originalPrice: 360,
     description:
       "Layered fabric flower drops in terracotta and mustard tones, finished with a delicate silver bell. A lighter everyday piece from the same handmade line.",
     swatch: "#e0a62f",
@@ -141,6 +146,7 @@ export const products: Product[] = [
     nameBn: "প্রতিকৃতি দুল",
     category: "personalized-earrings",
     price: 200,
+    originalPrice: 450,
     description:
       "Hand painted silhouette art on a fabric base, framed in a rich colour block and finished with a jhumka drop. A conversation piece, made to order.",
     swatch: "#2f3b63",
@@ -165,6 +171,7 @@ export const products: Product[] = [
     nameBn: "শাঁখ লকেট মালা",
     category: "fine-jewelry",
     price: 299,
+    originalPrice: 620,
     description:
       "A hand lettered pendant strung with natural cowrie shells on a black cord, with a matching earring pair. Personalize the pendant with a name or a short phrase.",
     swatch: "#3d4f36",
@@ -186,6 +193,7 @@ export const products: Product[] = [
     nameBn: "প্যাঁচা মাটির গহনা",
     category: "fine-jewelry",
     price: 549,
+    originalPrice: 1070,
     description:
       "A hand painted owl pendant and earring set on black cord, styled after Bengal's beloved Lokkhi pyanchar, the owl who rides beside the goddess of wealth.",
     swatch: "#c1502e",
@@ -208,6 +216,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 187,
+    originalPrice: 400,
     description:
       "Classic oxidised silver-tone jhumka earrings with a pearl drop trail, ready to ship. A wardrobe staple for daily wear or festive dressing.",
     swatch: "#5c5850",
@@ -220,6 +229,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 343,
+    originalPrice: 700,
     description:
       "A fuller, layered take on the oxidised jhumka with cascading pearl detailing, finished in a rich antique silver tone.",
     swatch: "#5c5850",
@@ -232,6 +242,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 441,
+    originalPrice: 880,
     description:
       "A statement sized oxidised jhumka with dense pearl work, perfect for weddings and festive occasions.",
     swatch: "#5c5850",
@@ -244,6 +255,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 363,
+    originalPrice: 740,
     description:
       "Traditional bell shaped oxidised jhumkas with pearl trims, a timeless pick for both daily wear and celebrations.",
     swatch: "#5c5850",
@@ -256,6 +268,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 265,
+    originalPrice: 550,
     description:
       "A lighter, petite oxidised jhumka with delicate pearl detailing, easy to wear all day.",
     swatch: "#5c5850",
@@ -268,6 +281,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড পাথর ঝুমকা",
     category: "oxidised-jewellery",
     price: 218,
+    originalPrice: 460,
     description:
       "Oxidised jhumka earrings set with pota stones and pearl drops, a colourful traditional favourite.",
     swatch: "#5c5850",
@@ -282,6 +296,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 195,
+    originalPrice: 410,
     description:
       "Oxidised jhumka earrings finished with white bead detailing for a clean, versatile look.",
     swatch: "#5c5850",
@@ -296,6 +311,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড পাথর ঝুমকা",
     category: "oxidised-jewellery",
     price: 225,
+    originalPrice: 470,
     description:
       "Oxidised jhumka earrings with pota stone accents, a rich traditional pick for festive wear.",
     swatch: "#5c5850",
@@ -308,6 +324,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড স্টাড দুল",
     category: "oxidised-jewellery",
     price: 196,
+    originalPrice: 410,
     description:
       "Everyday oxidised silver-tone stud earrings, lightweight and comfortable for all-day wear.",
     swatch: "#5c5850",
@@ -320,6 +337,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড স্টাড দুল",
     category: "oxidised-jewellery",
     price: 196,
+    originalPrice: 410,
     description:
       "Oxidised stud earrings with a floral motif, a versatile everyday accent piece.",
     swatch: "#5c5850",
@@ -332,6 +350,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড স্টাড দুল",
     category: "oxidised-jewellery",
     price: 196,
+    originalPrice: 410,
     description:
       "A petite oxidised stud, simple and easy to pair with any outfit.",
     swatch: "#5c5850",
@@ -344,6 +363,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড স্টাড দুল",
     category: "oxidised-jewellery",
     price: 167,
+    originalPrice: 360,
     description:
       "Our smallest oxidised stud, perfect for a subtle everyday accent.",
     swatch: "#5c5850",
@@ -356,6 +376,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড ঘুংরু দুল",
     category: "oxidised-jewellery",
     price: 392,
+    originalPrice: 790,
     description:
       "Oxidised dangler earrings finished with tiny ghungroo bells that catch the light with every move.",
     swatch: "#5c5850",
@@ -368,6 +389,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড ঘুংরু দুল",
     category: "oxidised-jewellery",
     price: 383,
+    originalPrice: 780,
     description:
       "A longer bell trail dangler in oxidised silver tone, festive and eye-catching.",
     swatch: "#5c5850",
@@ -380,6 +402,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড ঘুংরু দুল",
     category: "oxidised-jewellery",
     price: 187,
+    originalPrice: 400,
     description:
       "A classic, lightweight ghungroo dangler in oxidised silver tone for daily wear.",
     swatch: "#5c5850",
@@ -392,6 +415,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কাশ্মীরি দুল",
     category: "oxidised-jewellery",
     price: 441,
+    originalPrice: 880,
     description:
       "Kashmiri style ghungroo dangler earrings in oxidised silver tone, richly detailed for festive occasions.",
     swatch: "#5c5850",
@@ -404,6 +428,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কাশ্মীরি দুল",
     category: "oxidised-jewellery",
     price: 392,
+    originalPrice: 790,
     description:
       "A slightly smaller take on the Kashmiri style oxidised dangler, still full of detail.",
     swatch: "#5c5850",
@@ -416,6 +441,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড দুল",
     category: "oxidised-jewellery",
     price: 215,
+    originalPrice: 450,
     description:
       "A simple, elegant oxidised dangler for everyday styling.",
     swatch: "#5c5850",
@@ -428,6 +454,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো দুল",
     category: "oxidised-jewellery",
     price: 196,
+    originalPrice: 410,
     description:
       "Oxidised dangler earrings finished with a pearl drop for a soft festive touch.",
     swatch: "#5c5850",
@@ -440,6 +467,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো দুল",
     category: "oxidised-jewellery",
     price: 173,
+    originalPrice: 370,
     description:
       "A slim, lightweight pearl dangler in oxidised silver tone, easy for daily wear.",
     swatch: "#5c5850",
@@ -452,6 +480,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড পাথর দুল",
     category: "oxidised-jewellery",
     price: 173,
+    originalPrice: 370,
     description:
       "Oxidised dangler earrings set with pota stones and finished with a pearl drop.",
     swatch: "#5c5850",
@@ -466,6 +495,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড পাথর দুল",
     category: "oxidised-jewellery",
     price: 413,
+    originalPrice: 830,
     description:
       "A statement sized pota stone and pearl dangler in oxidised silver tone, ideal for weddings and festive wear.",
     swatch: "#5c5850",
@@ -480,6 +510,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কানচেইন দুল",
     category: "oxidised-jewellery",
     price: 315,
+    originalPrice: 650,
     description:
       "Designer kaanchain style earrings with pota stone and pearl detailing, connected by a delicate ear chain.",
     swatch: "#5c5850",
@@ -494,6 +525,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 285,
+    originalPrice: 590,
     description:
       "A rounded oxidised jhumka silhouette with pearl trims, a versatile festive pick.",
     swatch: "#5c5850",
@@ -506,6 +538,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 383,
+    originalPrice: 780,
     description:
       "A layered bell jhumka in oxidised silver tone with pearl detailing.",
     swatch: "#5c5850",
@@ -518,6 +551,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 343,
+    originalPrice: 700,
     description:
       "A wider oxidised jhumka silhouette with pearl trims, for a fuller festive look.",
     swatch: "#5c5850",
@@ -530,6 +564,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড পাথর ঝুমকা",
     category: "oxidised-jewellery",
     price: 330,
+    originalPrice: 680,
     description:
       "A larger pota stone and pearl jhumka in oxidised silver tone, richly detailed for festive occasions.",
     swatch: "#5c5850",
@@ -544,6 +579,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড মুক্তো ঝুমকা",
     category: "oxidised-jewellery",
     price: 233,
+    originalPrice: 490,
     description:
       "A medium sized oxidised pearl jhumka, balanced for both daily wear and festive dressing.",
     swatch: "#5c5850",
@@ -558,6 +594,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 270,
+    originalPrice: 560,
     description:
       "A set of 12 oxidised ear cuffs with a fish motif, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -570,6 +607,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 270,
+    originalPrice: 560,
     description:
       "A set of 12 oxidised ear cuffs with a lotus motif, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -582,6 +620,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 270,
+    originalPrice: 560,
     description:
       "A set of 12 oxidised ear cuffs with peacock and elephant motifs, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -596,6 +635,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 270,
+    originalPrice: 560,
     description:
       "A set of 12 oxidised ear cuffs with a peacock motif, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -608,6 +648,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 270,
+    originalPrice: 560,
     description:
       "A set of 12 oxidised ear cuffs with a butterfly motif, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -622,6 +663,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 252,
+    originalPrice: 530,
     description:
       "A set of 12 plain oxidised ear cuffs, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -634,6 +676,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 252,
+    originalPrice: 530,
     description:
       "A set of 12 oxidised ear cuffs with a floral motif, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -646,6 +689,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 252,
+    originalPrice: 530,
     description:
       "A set of 12 oxidised ear cuffs with a paired floral motif, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -658,6 +702,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 306,
+    originalPrice: 630,
     description:
       "A set of 12 oxidised ear cuffs with a layered floral motif, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -670,6 +715,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 306,
+    originalPrice: 630,
     description:
       "A set of 12 oxidised ear cuffs with a paired butterfly motif, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -684,6 +730,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 270,
+    originalPrice: 560,
     description:
       "A set of 12 oxidised ear cuffs with a paired peacock motif, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -696,6 +743,7 @@ export const products: Product[] = [
     nameBn: "অক্সিডাইজড কান কাফ",
     category: "oxidised-jewellery",
     price: 306,
+    originalPrice: 630,
     description:
       "A set of 12 oxidised ear cuffs with a layered floral motif, traditional fashion jewellery sold as a set.",
     swatch: "#5c5850",
@@ -710,6 +758,7 @@ export const products: Product[] = [
     nameBn: "তুমি আমার ঝুমকা",
     category: "personalized-earrings",
     price: 150,
+    originalPrice: 340,
     description:
       "A hand painted mismatched pair reading Tumi and Amar, in white script on royal blue, edged with mustard pom poms.",
     swatch: "#2f3b8f",
@@ -722,6 +771,7 @@ export const products: Product[] = [
     nameBn: "গণেশ ঝুমকা",
     category: "personalized-earrings",
     price: 140,
+    originalPrice: 320,
     description:
       "Hand painted Ganesh motif earrings on a deep red fabric base with a polka dot border, finished with a pom pom and cowrie shell drop.",
     swatch: "#a8231f",
@@ -734,6 +784,7 @@ export const products: Product[] = [
     nameBn: "বাংলা লিপি ঝুমকা",
     category: "personalized-earrings",
     price: 130,
+    originalPrice: 300,
     description:
       "A mismatched pair of hand painted Bengali calligraphy earrings on black fabric, edged in red pom poms with a silver jhumka bell.",
     swatch: "#1f1a17",
@@ -748,6 +799,7 @@ export const products: Product[] = [
     nameBn: "রাই কিশোরী ঝুমকা",
     category: "personalized-earrings",
     price: 170,
+    originalPrice: 380,
     description:
       "Hand painted Rai Kishori text on a red disc with a sky blue pom pom border, finished with a trio of cowrie shell drops.",
     swatch: "#b5382a",
@@ -760,6 +812,7 @@ export const products: Product[] = [
     nameBn: "হলুদ ফুল ঝুমকা",
     category: "personalized-earrings",
     price: 160,
+    originalPrice: 360,
     description:
       "Hand painted white floral vine on a mustard yellow disc with red pom pom trim, finished with a cowrie shell drop.",
     swatch: "#e0a62f",
@@ -774,6 +827,7 @@ export const products: Product[] = [
     nameBn: "লাল ফুল ঝুমকা",
     category: "personalized-earrings",
     price: 160,
+    originalPrice: 360,
     description:
       "Hand painted white floral vine on a deep red disc with mustard pom pom trim, finished with a cowrie shell drop.",
     swatch: "#b5382a",
@@ -788,6 +842,7 @@ export const products: Product[] = [
     nameBn: "ছৌ মুখোশ ঝুমকা",
     category: "personalized-earrings",
     price: 200,
+    originalPrice: 450,
     description:
       "A hand painted Chhau mask inspired face on a scalloped black base, finished with a silver jhumka bell. Inspired by the folk dance masks of Purulia.",
     swatch: "#1f1a17",
@@ -800,6 +855,7 @@ export const products: Product[] = [
     nameBn: "মাছ ঝুমকা",
     category: "personalized-earrings",
     price: 150,
+    originalPrice: 340,
     description:
       "A hand embroidered fish motif on black fabric, a nod to the Bengali love for maach, edged in red pom poms with a silver jhumka bell.",
     swatch: "#1f1a17",
@@ -812,6 +868,7 @@ export const products: Product[] = [
     nameBn: "দেখা ঝুমকা",
     category: "personalized-earrings",
     price: 170,
+    originalPrice: 380,
     description:
       "Hand painted Dekha lettering with a floral accent on a royal blue disc, edged in red pom poms with a silver jhumka bell.",
     swatch: "#2f3b8f",
@@ -824,6 +881,7 @@ export const products: Product[] = [
     nameBn: "তুমি রবে নীরবে ঝুমকা",
     category: "personalized-earrings",
     price: 180,
+    originalPrice: 400,
     description:
       "A hand painted line from the beloved Rabindra Sangeet Tumi Robe Nirobe, on a mustard disc with a bold red pom pom border.",
     swatch: "#e0a62f",
@@ -838,6 +896,7 @@ export const products: Product[] = [
     nameBn: "রঙিন বাংলা লিপি ঝুমকা",
     category: "personalized-earrings",
     price: 140,
+    originalPrice: 320,
     description:
       "A mismatched pair of hand painted Bengali calligraphy earrings in red, blue, yellow, and green on a white base with a scalloped pom pom edge.",
     swatch: "#c1502e",
@@ -852,6 +911,7 @@ export const products: Product[] = [
     nameBn: "মুখাবয়ব ঝুমকা",
     category: "personalized-earrings",
     price: 190,
+    originalPrice: 420,
     description:
       "A hand painted portrait in the bold lines of Bengal's Jamini Roy school, on a royal blue disc with a scalloped black edge and jhumka bell.",
     swatch: "#2f3b8f",
@@ -864,6 +924,7 @@ export const products: Product[] = [
     nameBn: "মুখাবয়ব ঝুমকা",
     category: "personalized-earrings",
     price: 180,
+    originalPrice: 400,
     description:
       "A hand painted portrait with a jasmine flower accent, in the bold lines of Bengal's Jamini Roy school, edged in a scalloped red pom pom border.",
     swatch: "#b5382a",
@@ -876,6 +937,7 @@ export const products: Product[] = [
     nameBn: "মুখাবয়ব ঝুমকা",
     category: "personalized-earrings",
     price: 200,
+    originalPrice: 450,
     description:
       "A hand painted folk art portrait with floral hair detailing on a split red and black disc, finished with a silver stud top and jhumka bell.",
     swatch: "#1f1a17",
@@ -892,6 +954,7 @@ export const products: Product[] = [
     nameBn: "দুর্গা মুখ ঝুমকা",
     category: "fine-jewelry",
     price: 599,
+    originalPrice: 1150,
     description:
       "A hand painted Durga face pendant framed in flame shaped petals, with a thread and bead drop and cowrie shell tassel. Made for the Pujo season and beyond.",
     swatch: "#b5382a",
@@ -912,6 +975,7 @@ export const products: Product[] = [
     nameBn: "দুর্গা ত্রিশূল মালা",
     category: "fine-jewelry",
     price: 649,
+    originalPrice: 1240,
     description:
       "A festive necklace pairing a hand painted Durga face pendant with trishul shaped earrings, cowrie shells, and coral toned beads on a red thread cord.",
     swatch: "#7a1f2b",
@@ -924,6 +988,7 @@ export const products: Product[] = [
     nameBn: "শাঁখ লকেট মালা",
     category: "fine-jewelry",
     price: 549,
+    originalPrice: 1070,
     description:
       "A hand painted conch shaped pendant in red and mustard, strung on a braided cord with matching drop earrings. Traditional shonkho motif, made modern.",
     swatch: "#e0a62f",
@@ -936,6 +1001,7 @@ export const products: Product[] = [
     nameBn: "রাজহাঁস পদ্ম মালা",
     category: "fine-jewelry",
     price: 499,
+    originalPrice: 980,
     description:
       "A hand painted clay pendant featuring a swan among lotus blooms, on a bright yellow braided cord with matching drop earrings.",
     swatch: "#e0a62f",
@@ -948,6 +1014,7 @@ export const products: Product[] = [
     nameBn: "প্রজাপতি বাগান মালা",
     category: "fine-jewelry",
     price: 449,
+    originalPrice: 890,
     description:
       "A hand painted square pendant with layered butterflies and a hand sculpted flower, wrapped in a maroon cord necklace with matching studs.",
     swatch: "#7a1f2b",
@@ -960,6 +1027,7 @@ export const products: Product[] = [
     nameBn: "জবা ফুল মালা",
     category: "fine-jewelry",
     price: 499,
+    originalPrice: 980,
     description:
       "A hand sculpted hibiscus pendant in red and gold on a beaded thread necklace with matching flower studs. Jaba phool, a flower of everyday Bengali worship.",
     swatch: "#b5382a",
@@ -972,6 +1040,7 @@ export const products: Product[] = [
     nameBn: "টিউলিপ লকেট মালা",
     category: "fine-jewelry",
     price: 599,
+    originalPrice: 1150,
     description:
       "Layered pearl strands finished with a rose shaped pendant, paired with tulip charm earrings. A softer, romantic piece for evening wear.",
     swatch: "#d9b8c4",
@@ -988,6 +1057,7 @@ export const products: Product[] = [
     nameBn: "টিউলিপ তোড়া মালা",
     category: "fine-jewelry",
     price: 649,
+    originalPrice: 1240,
     description:
       "A hand sculpted bouquet of clay tulips on a braided pink and green cord, with matching tulip stud earrings. A statement piece for festive wear.",
     swatch: "#e07a9c",
@@ -1000,6 +1070,7 @@ export const products: Product[] = [
     nameBn: "কলকা লকেট মালা",
     category: "fine-jewelry",
     price: 549,
+    originalPrice: 1070,
     description:
       "A hand painted paisley pendant in a kalka motif, strung on colourful wooden beads with a matching earring pair.",
     swatch: "#c1502e",
@@ -1012,6 +1083,7 @@ export const products: Product[] = [
     nameBn: "জগন্নাথ মালা",
     category: "fine-jewelry",
     price: 599,
+    originalPrice: 1150,
     description:
       "A wooden bead necklace with a hand painted Jagannath pendant, mixing coral, black, and cream tones on a soft green cord.",
     swatch: "#3d4f36",
@@ -1024,6 +1096,7 @@ export const products: Product[] = [
     nameBn: "লাল পুঁতির মালা",
     category: "fine-jewelry",
     price: 449,
+    originalPrice: 890,
     description:
       "A multi strand red beaded necklace with hand sculpted blue flowers, paired with matching floral studs. Bold enough for Pujo, simple enough for daily wear.",
     swatch: "#b5382a",
@@ -1036,6 +1109,7 @@ export const products: Product[] = [
     nameBn: "পাতা পালক মালা",
     category: "fine-jewelry",
     price: 599,
+    originalPrice: 1150,
     description:
       "A multicolour wooden bead necklace finished with a hand painted silver toned pendant, paired with delicate leaf earrings.",
     swatch: "#7a8b5c",
@@ -1048,6 +1122,7 @@ export const products: Product[] = [
     nameBn: "সমুদ্র দুল",
     category: "fine-jewelry",
     price: 379,
+    originalPrice: 770,
     description:
       "A hand painted beach scene on circular fabric discs, finished with colourful beaded strands and pom poms. Two ways to wear the sea.",
     swatch: "#2f3b63",
@@ -1063,6 +1138,7 @@ export const products: Product[] = [
     nameBn: "রূপালি চোকার",
     category: "fine-jewelry",
     price: 429,
+    originalPrice: 860,
     description:
       "A hand braided black thread choker finished with oxidised silver charms, paired with matching drop earrings. A modern take on a classic silhouette.",
     swatch: "#1f1a17",
@@ -1287,6 +1363,7 @@ export const products: Product[] = [
     nameBn: "মাটির প্রদীপ সেট",
     category: "home-gifting",
     price: 449,
+    originalPrice: 890,
     description:
       "A set of hand painted terracotta diyas, each finished with a different folk art motif, the same craft technique behind our earrings, brought to festive decor.",
     swatch: "#a9784f",
@@ -1311,6 +1388,7 @@ export const products: Product[] = [
     nameBn: "পটচিত্র রাধাকৃষ্ণ থালা",
     category: "home-gifting",
     price: 899,
+    originalPrice: 1620,
     description:
       "A hand painted decorative plate in the Patachitra folk art style of Bengal, depicting Radha and Krishna, ready to hang on any wall.",
     swatch: "#2f3b63",
@@ -1326,6 +1404,7 @@ export const products: Product[] = [
     nameBn: "পটচিত্র মাছ থালা",
     category: "home-gifting",
     price: 799,
+    originalPrice: 1470,
     description:
       "A circular hand painted plate with a mandala of fish, a motif rooted in Bengal's rivers and its everyday iconography of abundance.",
     swatch: "#2f3b63",
@@ -1338,6 +1417,7 @@ export const products: Product[] = [
     nameBn: "পটচিত্র জগন্নাথ থালা",
     category: "home-gifting",
     price: 799,
+    originalPrice: 1470,
     description:
       "A bold, hand painted Jagannath face plate in the traditional red, white, and black palette, a striking piece for any wall of worship or decor.",
     swatch: "#b5382a",
@@ -1350,6 +1430,7 @@ export const products: Product[] = [
     nameBn: "পটচিত্র ময়ূর থালা",
     category: "home-gifting",
     price: 849,
+    originalPrice: 1550,
     description:
       "A hand painted mandala plate centred on a peacock motif, richly bordered in the layered patterns typical of Patachitra art.",
     swatch: "#2f3b63",
@@ -1365,6 +1446,7 @@ export const products: Product[] = [
     nameBn: "পটচিত্র শিব পার্বতী থালা",
     category: "home-gifting",
     price: 899,
+    originalPrice: 1620,
     description:
       "A hand painted plate portraying Shiva and Parvati in bold blue and gold, a striking centrepiece for a puja room or living wall.",
     swatch: "#2f3b63",
@@ -1377,6 +1459,7 @@ export const products: Product[] = [
     nameBn: "পটচিত্র প্যাঁচা থালা",
     category: "home-gifting",
     price: 799,
+    originalPrice: 1470,
     description:
       "A whimsical hand painted plate filled with owls, styled after Lokkhi pyanchar, the owl that accompanies the goddess of wealth in Bengali folklore.",
     swatch: "#3d4f36",
@@ -1389,6 +1472,7 @@ export const products: Product[] = [
     nameBn: "পটচিত্র জীবন বৃক্ষ থালা",
     category: "home-gifting",
     price: 849,
+    originalPrice: 1550,
     description:
       "A hand painted tree of life plate filled with birds and blossoms, a timeless Patachitra motif for a warm, storytelling wall.",
     swatch: "#7a8b5c",
@@ -1401,6 +1485,7 @@ export const products: Product[] = [
     nameBn: "পটচিত্র প্রতিকৃতি থালা",
     category: "home-gifting",
     price: 799,
+    originalPrice: 1470,
     description:
       "A hand painted portrait plate in warm, expressive tones, framed with a traditional Patachitra border. Available in a few styles.",
     swatch: "#a9784f",
@@ -1416,6 +1501,7 @@ export const products: Product[] = [
     nameBn: "পটচিত্র কেটলি",
     category: "home-gifting",
     price: 1299,
+    originalPrice: 2170,
     description:
       "A metal kettle hand painted in the Patachitra style with an owl motif, equal parts kitchen curio and folk art collectible.",
     swatch: "#2f3b63",
@@ -1487,6 +1573,19 @@ export const products: Product[] = [
       "A hand-painted toucan perched on a leafy branch, on a mustard bamboo weave tray fitted with hooks to double as a wall key holder.",
     swatch: "#e0a62f",
     images: ["/images/products/bangaliana/toucan-tray.jpg"],
+    personalizable: false,
+  },
+  {
+    slug: "nari-mukh-tray",
+    name: "Nari Mukh Tray",
+    nameBn: "নারীর মুখ ট্রে",
+    category: "bangaliana",
+    price: 775,
+    originalPrice: 1700,
+    description:
+      "A hand-painted portrait of a Bengali woman in profile, in bold blue and red with silver jewellery detailing, on a bamboo weave tray with a black scalloped border.",
+    swatch: "#2f3b63",
+    images: ["/images/products/bangaliana/nari-mukh-tray.jpg"],
     personalizable: false,
   },
   {
